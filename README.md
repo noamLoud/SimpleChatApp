@@ -1,1 +1,1 @@
-Simple chat app using react and firebase
+A simple/single component chat app using react and firebase

@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <h1>Firebase Chat App</h1>
         <SignOut />
       </header>
 
@@ -113,7 +113,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} />
+      <img src={photoURL || 'https://cdn.pixabay.com/photo/2023/01/05/12/01/horse-7698761_960_720.jpg'} />
       <p>{text}</p>
     </div>
   </>)
